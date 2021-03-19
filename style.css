@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Century Gothic";
+    background-color: #5d4852;
+}
+
+@media only screen and (max-width: 480px){
+    .wrapper{
+        background-color: #5d4852;
+        padding: 20px;
+    }
+
+    .header{
+        background-color: #f6f6f6;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .header h1{
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .header h3{
+        display: none;
+    }
+
+    .wrapper > img{
+        display: none;
+    }   
+
+    .about{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        height: 280px;
+        width: 100%;
+    }
+    
+    .about > h3{
+        background-color: #8d8c98;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        color: white;
+    }
+    
+    .about > p, .about > a{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+    }
+
+    .projects > ul{
+        list-style-type: none;
+        margin-top: 22px;
+        padding: 0;
+    }
+    
+    .projects > ul > li{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .projects > ul > li:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    .projects > ul > li > h3{
+        background-color: #8d8c98;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        color: white;
+    }
+    
+    .projects > ul > li > img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .projects > ul > li > p{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+        height: 150px;
+    }
+    
+    .projects .technologies {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .projects .technologies > img{
+        display: inline-block;
+        margin: 2.5px;
+        width: 15%;
+    }
+    
+    .projects button{
+        background-color: #407d61;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+        padding: 10px;
+        border: none;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .wrapper{
+        background-color: #5d4852;
+        margin: 50px 50px 0px 50px;
+    }
+
+    .header{
+        background-color: #f6f6f6;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .header h1{
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .header h3{
+        display: none;
+    }
+
+    .wrapper > img{
+        display: none;
+    }   
+
+    .about{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        height: 280px;
+        width: 100%;
+    }
+    
+    .about > h3{
+        background-color: #8d8c98;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        color: white;
+    }
+    
+    .about > p, .about > a{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+    }
+
+    .projects > ul{
+        list-style-type: none;
+        margin-top: 22px;
+        padding: 0;
+    }
+    
+    .projects > ul > li{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .projects > ul > li:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    .projects > ul > li > h3{
+        background-color: #8d8c98;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        color: white;
+    }
+    
+    .projects > ul > li > img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .projects > ul > li > p{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+        height: 150px;
+    }
+    
+    .projects .technologies {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .projects .technologies > img{
+        display: inline-block;
+        margin: 2.5px;
+        width: 15%;
+    }
+    
+    .projects button{
+        background-color: #407d61;
+        margin: 20px 0px 20px 0px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+        padding: 10px;
+        border: none;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .wrapper{
+        background-color: #5d4852;
+        margin: 0px 50px 0px 50px;    
+    }
+
+    .header{
+        background-color: #f6f6f6;
+        margin-bottom: 50px;
+    }
+    
+    .header h1{
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 50px;
+        text-align: left;
+        height: 40px;
+        width: 40%;
+    }
+    
+    .header h3{
+        vertical-align: middle;
+        display: inline-block;
+        text-align: right;
+        width: 50%;
+    }
+
+    .wrapper > img{
+        border: 5px solid #c0c0c0;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+        height: auto;
+        width: 50%;
+    }
+
+    .about{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        height: 312px;
+        width: 46%;
+    }
+    
+    .about > h3{
+        background-color: #8d8c98;
+        color: white;
+        padding: 10px;
+    }
+    
+    .about > p, .about > a{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+    }
+    
+    .projects > ul{
+        list-style-type: none;
+        margin-top: 22px;
+        padding: 0;
+    }
+    
+    .projects > ul > li{
+        background-color: #ebe3eb;
+        display: inline-block;
+        vertical-align: top;
+        width: 31.5%;
+    }
+    
+    .projects > ul > li:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    .projects > ul > li > h3{
+        background-color: #8d8c98;
+        color: white;
+        padding: 10px;
+    }
+    
+    .projects > ul > li > img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .projects > ul > li > p{
+        font-family: "Arial";
+        font-size: 14px;
+        color: black;
+        padding: 10px;
+        height: 150px;
+    }
+    
+    .projects .technologies {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .projects .technologies > img{
+        display: inline-block;
+        margin: 2.5px;
+        width: 15%;
+    }
+    
+    .projects button{
+        background-color: #407d61;
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+.footer{
+    background-color: #5d4852;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+}
+
+.footer > ul{
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer > ul > li{
+    display: inline-block;
+}
+
+.footer > ul > li > img{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+
+.footer > ul > li > span{
+    text-decoration: underline;
+    font-style: italic;
+}
+
